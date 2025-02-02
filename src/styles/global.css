@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "font", ui-sans-serif, system-ui, sans-serif;
+  /* TODO add display font */
+}
