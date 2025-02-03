@@ -7,6 +7,11 @@
       rgba(219, 234, 254, 0.2) 47.82%,
       rgba(219, 234, 254, 0) 94.89%
     );
+    backdrop-filter: blur(150px);
+
+    box-shadow: 0px 0px 0px 1px #00000033 inset;
+
+    box-shadow: 0px 12px 32px -4px #00000080;
   }
   .text-gradient {
     /* apply gradient here and clip text */
@@ -14,9 +19,37 @@
 
   .card-gradient {
     background: linear-gradient(360deg, #2563eb 0%, #22d3ee 100%);
+    border-width: 2px solid transparent;
+    border-radius: calc(infinity * 1px);
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 3px 6px 0px #001f292e;
+
+    box-shadow: 0px 12px 12px 0px #001f2926;
+
+    box-shadow: 0px 26px 16px 0px #001f2917;
+
+    box-shadow: 0px 46px 18px 0px #001f2908;
+
+    box-shadow: 0px 72px 20px 0px #001f2900;
+
+    box-shadow: 0px 1px 7px 0px #ffffff66 inset;
   }
   .blockchain-gradient {
-		background: linear-gradient(360deg, #7C3AED 0%, #C026D3 100%);
+    background: linear-gradient(360deg, #7c3aed 0%, #c026d3 100%);
+    border-width: 2px solid transparent;
+    border-radius: calc(infinity * 1px);
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 3px 6px 0px #001f292e;
+
+    box-shadow: 0px 12px 12px 0px #001f2926;
+
+    box-shadow: 0px 26px 16px 0px #001f2917;
+
+    box-shadow: 0px 46px 18px 0px #001f2908;
+
+    box-shadow: 0px 72px 20px 0px #001f2900;
+
+    box-shadow: 0px 1px 7px 0px #ffffff66 inset;
   }
 </style>
 
@@ -163,9 +196,9 @@
         <button class="w-full text-center border-b-1 border-white/20"></button>
         <div class="flex flex-col py-4">
           <div class="flex flex-col gap-4">
-						<!-- Card -->
+            <!-- Card -->
             <div
-              class="card-gradient rounded-full py-6 px-6 border-1 h-[48px] flex items-center justify-between"
+              class="card-gradient py-6 px-6 h-[48px] flex items-center justify-between"
             >
               <div class="flex gap-3">
                 <svg
@@ -209,9 +242,9 @@
                 </g>
               </svg>
             </div>
-						<!-- Blockchain -->
+            <!-- Blockchain -->
             <div
-              class="blockchain-gradient rounded-full py-6 px-6 border-1 h-[48px] flex items-center justify-between"
+              class="blockchain-gradient py-6 px-6 h-[48px] flex items-center justify-between"
             >
               <div class="flex gap-3">
                 <svg
